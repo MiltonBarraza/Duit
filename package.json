@@ -1,0 +1,24 @@
+{
+  "name": "duit-repo-milton",
+  "version": "1.0.0",
+  "description": "Repo-inmobiliaria-Duit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Milton Barraza",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "next": "^12.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "sass": "^1.54.4"
+  }
+}
