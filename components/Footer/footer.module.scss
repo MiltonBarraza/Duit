@@ -23,7 +23,7 @@
         display: flex;
 
         p {
-            font-size: 16px;
+            font-size: 14px;
             line-height: 25px;
             color: #f3eed5;
             text-align: justify;
@@ -58,19 +58,19 @@
             width: fit-content;
             line-height: normal;
             color: #f3eed5;
-            font-size: 14px;
+            font-size: 12px;
             margin: 5px;
         }
     }
 }
-
 @media only screen and (min-width: 1024px) {
+
     .footer {
         max-width: 1300px;
         margin: 25px auto;
         border-radius: 5px;
 
-        .foor-copy {
+        .copy {
             padding-bottom: 0;
 
             p {
@@ -79,7 +79,7 @@
             }
         }
 
-        .contacto-container>* {
+        .contactoContainer>* {
             font-size: 14px;
         }
     }
