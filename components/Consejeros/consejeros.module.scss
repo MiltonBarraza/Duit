@@ -1,0 +1,72 @@
+@import '../../assets/variables';
+
+.apartadoConsejeros {
+    background-color: $gris-1;
+    width: 100%;
+
+    .consejerosContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        background-color: $gris-1;
+        max-width: 1200px;
+        margin: auto;
+        padding-bottom: 50px;
+
+        .consejerosTitulo {
+            flex: 1 1 100%;
+            text-align: center;
+            margin-top: 20px;
+
+        }
+
+        .consejerosDetalle {
+            padding: 0 25px;
+            margin-bottom: 40px;
+
+            p {
+                line-height: normal;
+            }
+        }
+
+        .tarjetaConsejero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 0 0 150px;
+            margin-bottom: 20px ;
+
+            .fotoConsejero {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                object-fit: cover;
+                                                
+            }
+
+            >a,
+            >p {
+                line-height: 20px;
+                font-size: 13px;
+                color: $gris-2;
+            }
+
+            p {
+                margin-top: 15px;
+            }
+
+            .tarjetaConsejeroIconos {
+                display: flex;
+                width: 40%;
+                justify-content: space-around;
+
+                a {
+                    font-size: 20px;
+                    color: $gris-2;
+                }
+            }
+        }
+    }
+}
