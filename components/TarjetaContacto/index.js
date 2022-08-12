@@ -6,12 +6,12 @@ export default function TarjetaContacto() {
     return (
 
         <section className={styles.container}>
-            <div style={{ width: '65%', height: '42%', position: 'relative' }}>
+            <div className={styles.imageContainer}>
                 <Image
                     src="/images/duit-rojo-horizontal.png"
+                    alt="duit-rojo-horizontal.png"
                     layout="fill"
                     objectFit="contain"
-                    alt="duit-rojo-horizontal.png"
                 />
             </div>
             
