@@ -1,7 +1,8 @@
 import styles from "../Footer/footer.module.scss";
 import Image from "next/image";
 import { Contactos } from "../../config"
-
+import OwnImage from "../Image/image"
+import Head from "next/head";
 
 export default function Footer() {
     return (
@@ -13,28 +14,26 @@ export default function Footer() {
                     y por eso estamos con vos para darle la bienvenida a los mejores momentos que vas a vivir.</p>
             </div>
 
-            <div className={styles.logosContainer}>
-                <div style={{ width: "50%", height: "auto", }}>
-                    <Image
-                        className={styles.logo}
+            <div className={styles.footerLogosContainer}>
+
+                <div className={styles.logoDuit}>
+
+                    <OwnImage
                         src="/images/duit_id_blanco_horizontal.png"
-                        height={54.99}
-                        width={192.2}
-                        alt={"duit_id_blanco_horizontal.png"}
+                        alt="duit_id_blanco_horizontal.png"
+                        layout="fill"
+                        maxWidth={"195px"}
+                                              
+                       
+
                     />
                 </div>
-                <div style={{ width: "50%", height: "auto", }}>
-                    <Image
-                        className={styles.logo}
-                        src="/images/byha.png"
-                        height={25}
-                        width={55}
-                        alt={"byha.png"}
-                    />
+                <div className={styles}>
+                    <OwnImage src="/images/byha.png" alt="byha.png" layout="fill" maxWidth={"55px"}/>
                 </div>
             </div>
 
-            <div className={styles.contactoContainer}>
+            <div className={styles.footerContactoContainer}>
                 <p>San Luis 145, 1° Oficina H</p>
                 <p>Barrio Nueva Córdoba</p>
                 <p>Córdoba - Argentina</p>

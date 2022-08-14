@@ -3,11 +3,10 @@
 .footer {
     padding: 15px;
     background-color: $rojo-1;
-    opacity: 0.9;
-    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-evenly;
 
     >div {
         width: 100%;
@@ -30,23 +29,40 @@
         }
     }
 
-    img.logo {
-        max-height: 55px;
-        width: auto;
-
-    }
-
-    .logosContainer {
+    .footerLogosContainer {
         display: flex;
-        flex: 0 0 50%;
         flex-direction: row;
         height: auto;
-        align-items: center;
-        justify-content: space-around;
-        text-align: center;
+        // display: flex;
+        // flex: 0 0 50%;
+        // flex-direction: row;
+        // align-items: center;
+        // justify-content: space-around;
+        // text-align: center;
+
+        div {
+            flex: 0 0 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+
+        }
+        .logoDuit {
+            max-height: 55px;
+            background-color: aqua;
+            
+        }
+        .logo {
+            max-height: 25px;
+            width: auto;
+            margin-top: 8px;
+        }
     }
 
-    .contactoContainer {
+
+
+    .footerContactoContainer {
         flex-wrap: wrap;
         border-radius: 10px;
         align-items: center;
@@ -63,6 +79,7 @@
         }
     }
 }
+
 @media only screen and (min-width: 1024px) {
 
     .footer {
@@ -79,7 +96,7 @@
             }
         }
 
-        .contactoContainer>* {
+        .footerContactoContainer>* {
             font-size: 14px;
         }
     }
