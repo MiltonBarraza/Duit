@@ -1,11 +1,11 @@
 @import '../../assets/variables';
 
 .footer {
-    padding: 15px;
     background-color: $rojo-1;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    padding: 15px;
+    align-items: center;
     justify-content: space-evenly;
 
     >div {
@@ -14,90 +14,97 @@
         max-width: 750px;
     }
 
-    .copy {
-        align-self: center;
-        border-radius: 10px;
-        max-width: 1000px;
-        padding-bottom: 0px;
-        display: flex;
-
-        p {
-            font-size: 14px;
-            line-height: 25px;
-            color: #f3eed5;
-            text-align: justify;
-        }
-    }
-
     .footerLogosContainer {
         display: flex;
         flex-direction: row;
         height: auto;
-        // display: flex;
-        // flex: 0 0 50%;
-        // flex-direction: row;
-        // align-items: center;
-        // justify-content: space-around;
-        // text-align: center;
 
-        div {
+        >div {
             flex: 0 0 50%;
             display: flex;
             align-items: center;
             justify-content: space-around;
-
-
-        }
-        .logoDuit {
-            max-height: 55px;
-            background-color: aqua;
-            
-        }
-        .logo {
-            max-height: 25px;
-            width: auto;
-            margin-top: 8px;
         }
     }
 
-
-
-    .footerContactoContainer {
-        flex-wrap: wrap;
+    .footerCopy {
         border-radius: 10px;
+        max-width: 1000px;
+        padding-bottom: 20px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .footerCopy p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0;
+        color: #f3eed5;
+        text-align: justify;
+    }
+
+    .footerText {
+        border-radius: 10px;
+        display: flex;
         align-items: center;
         justify-content: space-around;
-        display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
 
-        >* {
-            width: fit-content;
-            line-height: normal;
-            color: #f3eed5;
-            font-size: 12px;
-            margin: 5px;
-        }
+.footerText>* {
+    width: fit-content;
+    line-height: normal;
+    color: #f3eed5;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.logoDuit {
+
+    span {
+        max-height: 55px;
+        
+    }
+    
+}
+
+.logoByHa {
+    margin-top: 8px;
+    
+    span{
+        max-height: 25px;
+        width: auto;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-
     .footer {
+        display: flex;
         max-width: 1300px;
         margin: 25px auto;
         border-radius: 5px;
 
-        .copy {
-            padding-bottom: 0;
 
-            p {
-                font-size: 16px;
-                line-height: 25px;
-            }
+        .footerCopy {
+            padding-bottom: 0;
         }
 
-        .footerContactoContainer>* {
+        .footerCopy p {
+            font-size: 16px;
+            line-height: 25px;
+        }
+
+        .footerText>* {
             font-size: 14px;
         }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer {
+        padding-bottom: 100px;
     }
 }
