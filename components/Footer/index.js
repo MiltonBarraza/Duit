@@ -1,6 +1,7 @@
 import styles from "../Footer/footer.module.scss";
 import Image from "next/image";
 import { Contactos } from "../../config"
+import Link from "next/link"
 
 export default function Footer() {
     return (
@@ -37,11 +38,11 @@ export default function Footer() {
                 <p>San Luis 145, 1° Oficina H</p>
                 <p>Barrio Nueva Córdoba</p>
                 <p>Córdoba - Argentina</p>
-                <a href={`tel:+${Contactos.whatsappDuit.numero}`}>{Contactos.whatsappDuit.formateado}</a>
+                <Link href={`tel:+${Contactos.whatsappDuit.numero}`}>
+                    <a >{Contactos.whatsappDuit.formateado}</a>
+                </Link>
             </div>
 
         </footer>
-
     )
 }
-
