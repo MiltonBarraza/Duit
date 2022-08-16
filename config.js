@@ -71,7 +71,7 @@ export const Consejeros = [
     {
         nombre: 'Agustín Aznarez',
         posicion: 'Consejero',
-        telefono: '(351) 3102556',
+        telefono: '351 3102556',
         telefonoFormateado: "+5493513108556" ,
         email: 'agustin@duitpropiedades.com.ar',
         facebook: 'https://www.facebook.com/agustin.aznarez',
@@ -83,7 +83,7 @@ export const Consejeros = [
     {
         nombre: 'Daniel Ganim',
         posicion: 'Consejero',
-        telefono: '(351) 5647780',
+        telefono: '351 5647780',
         telefonoFormateado: "+5493515647780" ,
         email: 'danielganim@duitpropiedades.com.ar',
         facebook: '',
@@ -95,7 +95,7 @@ export const Consejeros = [
     {
         nombre: 'Fernando Gavier',
         posicion: 'Consejero',
-        telefono: '(0351) 5145491',
+        telefono: '351 5145491',
         telefonoFormateado: "+5493515145491" ,
         email: 'fgavier@duitpropiedades.com.ar',
         facebook: 'https://www.facebook.com/fngavier',
@@ -107,7 +107,7 @@ export const Consejeros = [
     {
         nombre: 'Severo Sosa',
         posicion: 'Consejero',
-        telefono: '(351) 5648467',
+        telefono: '351 5648467',
         telefonoFormateado: "+5493515648467" ,
         email: 'severo@duitpropiedades.com.ar',
         facebook: 'https://www.facebook.com/sapo.sosa',
@@ -119,7 +119,7 @@ export const Consejeros = [
     {
         nombre: 'Carolina Valarolo',
         posicion: 'Consejera',
-        telefono: '(351) 5513711',
+        telefono: '351 5513711',
         telefonoFormateado: "+5493515513711" ,
         email: 'carolina@duitpropiedades.com.ar',
         facebook: '',
@@ -131,7 +131,7 @@ export const Consejeros = [
     {
         nombre: 'Teresita Sciortino',
         posicion: 'Secretaria Administración',
-        telefono: '(351) 6840250',
+        telefono: '351 6840250',
         telefonoFormateado: "+5493516840250" ,
         email: 'teresita@duitpropiedades.com.ar',
         facebook: '',
@@ -143,7 +143,7 @@ export const Consejeros = [
     {
         nombre: 'Santiago Paulus',
         posicion: 'Asesor',
-        telefono: '(351) 5908204',
+        telefono: '351 5908204',
         telefonoFormateado: "+5493515908204" ,
         email: 'santiago@duitpropiedades.com.ar',
         facebook: '',
