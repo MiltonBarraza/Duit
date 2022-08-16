@@ -105,18 +105,6 @@ export const Consejeros = [
         foto: 'fernando-gavier-profile.jpg',
     },
     {
-        nombre: 'Hugo Miranda',
-        posicion: 'Consejero',
-        telefono: '(351) 2462630',
-        telefonoFormateado: "+5493512462630" ,
-        email: 'hmiranda@duitpropiedades.com.ar',
-        facebook: ' ',
-        twitter: '',
-        linkedin: '',
-        instagram: '',
-        foto: 'hugo-miranda-profile.jpg',
-    },
-    {
         nombre: 'Severo Sosa',
         posicion: 'Consejero',
         telefono: '(351) 5648467',
