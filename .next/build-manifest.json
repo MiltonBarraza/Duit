@@ -34,11 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/asistente.js"
-    ],
-    "/propiedades": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/propiedades.js"
     ]
   },
   "ampFirstPages": []
