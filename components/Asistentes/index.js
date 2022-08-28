@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../Asistentes/asistentes.module.scss";
-import { AsistentesImagenes } from "../asistentesComponentes";
+import { AsistentesImagenes } from "../Asistentes/asistentesComponentes";
 
 export default function Asistentes() {
     return (
@@ -17,11 +17,15 @@ export default function Asistentes() {
                         objectFit="cover"
                     />
                 </div>
+
             </div>
 
-            <div  >
+            <div className={styles.asistentesImg} >
+
                 <AsistentesImagenes />
+
             </div>
+
         </section>
     )
 }
