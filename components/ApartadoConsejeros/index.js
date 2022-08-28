@@ -11,12 +11,12 @@ export default function ApartadoConsejeros() {
 
             <div className={styles.apartadoConsejerosContainer}>
 
-                <div className={styles.apartadoConsejerosTitulo} style={{ width: "100%", height: 50, position: 'relative' }}>
+                <div className={styles.apartadoConsejerosTitulo}>
                     <Image
                         src='/images/consejeros.png'
                         alt="consejeros.png"
-                        layout="fill"
-                        objectFit="contain"
+                        width={150}
+                        height={50}
                     />
                 </div>
 
@@ -38,8 +38,10 @@ export default function ApartadoConsejeros() {
                 {
                     Consejeros.map((consejero, index) => {
                         return (
+
                             <div key={index} className={styles.tarjetaConsejero} >
-                                <Image className={styles.fotoConsejero}
+
+                                <Image
                                     src={`/images/consejeros/${consejero.foto}`}
                                     alt={`${consejero.foto}`}
                                     width={100}
@@ -48,8 +50,10 @@ export default function ApartadoConsejeros() {
                                 <p>{`${consejero.nombre}`}</p>
                                 <a href={`tel:+{${consejero.telefono}}`}>{`${consejero.telefono}`}</a>
                                 <div className={styles.tarjetaConsejerosIconos}>
+
                                     <a href={`mailto:${consejero.email}`}><FontAwesomeIcon icon={faEnvelope} /></a>
                                     <a href={`https://wa.me/${consejero.telefonoFormateado}`}><FontAwesomeIcon icon={faWhatsapp} /></a>
+
                                 </div>
 
                             </div>
