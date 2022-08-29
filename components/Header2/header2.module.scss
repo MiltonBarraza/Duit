@@ -1,0 +1,222 @@
+@import "../../assets/variables";
+
+#header .desktopHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $rojo-1;
+    height: 70px;
+}
+
+.desktopHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $rojo-1;
+    height: 70px;
+}
+
+#header .desktopHeaderContainer>* {
+    flex: 0 0 fit-content;
+    padding: 0 15px;
+}
+
+#header #logo img {
+    max-height: 80px;
+    transform: none;
+}
+
+.logoImagen{ // mio
+    max-height: 80px;
+    transform: none;
+}
+
+.logo { // mio
+    float: left;
+    max-height: 80px;
+}
+
+#sticky-header #logo img {
+    max-height: 45px;
+    transform: none;
+}
+
+#header .desktop-header-container .header-social {
+    margin-right: 20px;
+}
+
+#header .desktop-header-container .header-social i {
+    color: #fff;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+#header {
+    position: relative;
+    z-index: 999;
+    padding: 25px 0 14px 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.header-widget {
+    position: relative;
+    top: -1px;
+    height: 54px;
+}
+
+.header-widget .button,
+.header-widget .button.border {
+    margin-right: 0;
+}
+
+.header-widget .sign-in {
+    position: relative;
+    top: 10px;
+    color: #333;
+    margin-right: 25px;
+    vertical-align: top;
+}
+
+.header-widget .sign-in i {
+    padding-right: 4px;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.header-widget .sign-in:hover {
+    color: #66676b;
+}
+
+header.fullwidth .container {
+    width: 100%;
+    margin: 0;
+    padding: 0 40px;
+}
+
+.left-side {
+    float: left;
+    width: 65%;
+    display: inline-block;
+}
+
+.right-side {
+    float: right;
+    width: 35%;
+    display: inline-block;
+}
+
+#logo,
+#navigation {
+    float: left;
+}
+
+.header-widget {
+    text-align: right;
+}
+
+#headerContainer.top-border {
+    border-top: 4px solid #66676b;
+}
+
+#headerContainer.header-style-2 .right-side {
+    width: 70%
+}
+
+#headerContainer.header-style-2 .left-side {
+    width: 30%
+}
+
+#headerContainer.header-style-2 #header {
+    padding-top: 0;
+}
+
+#headerContainer.header-style-2 #header {
+    padding-bottom: 0;
+}
+
+.header-style-2 .header-widget {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    float: right;
+    padding-left: 0;
+    text-align: left;
+}
+
+.header-style-2 .header-widget li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    padding-right: 35px;
+    line-height: 24px;
+    position: relative;
+}
+
+.header-style-2 .header-widget li:after {
+    position: absolute;
+    height: 48px;
+    content: "";
+    display: inline-block;
+    width: 1px;
+    background-color: #e0e0e0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0;
+}
+
+.header-style-2 .header-widget li:last-child:after {
+    width: 0;
+}
+
+.header-style-2 .header-widget li i {
+    float: left;
+    display: inline-block;
+    color: #66676b;
+    font-size: 34px;
+    width: 35px;
+    position: relative;
+    margin-top: 8px;
+    margin-right: 18px;
+    text-align: center;
+    -webkit-text-stroke: .5px #fff;
+}
+
+.header-style-2 .header-widget li .widget-content {
+    float: left;
+    max-width: 185px;
+}
+
+.header-style-2 .header-widget .sl-icon-location {
+    font-size: 36px;
+    margin: 5px 10px 0 8px;
+}
+
+.header-style-2 .header-widget li span.title {
+    display: block;
+    color: #333;
+}
+
+.header-style-2 .header-widget li span.data {
+    color: gray;
+}
+
+.header-style-2 .header-widget li.with-btn:after {
+    display: none;
+}
+
+.header-style-2 .header-widget a.button {
+    margin-left: 13px;
+    line-height: 25px;
+    position: relative;
+    top: 3px;
+}
+
+.header-style-2 .header-widget li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
