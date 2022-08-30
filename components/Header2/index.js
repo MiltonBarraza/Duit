@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "../Header2/header2.module.scss";
+import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 export default function Header2() {
     return (
@@ -26,32 +27,32 @@ export default function Header2() {
                             <Image 
                             src="/images/duit_id_blanco.png"
                             alt="duit_id_blanco.png"
-                            width={180}
-                            height={130}
+                            width={130}
+                            height={80}
                             className={styles.logoImagen}
                             />
                         </a>
 
                     </div>
 
-                    <nav>
+                    <nav id="navigation" className={styles.navigation}>
                         <ul id="responsive">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li><a> "Home" </a></li>
+                            <li><a> "Asistente Personal" </a></li>
+                            <li><a> "Alquiler" </a></li>
+                            <li><a> "Venta" </a></li>
+                            <li><a> "Emprendimientos" </a></li>
+                            <li><a> "Duit 360°" </a></li>
+                            <li><a> "Servicios" </a></li>
+                            <li><a> "Consejeria" </a></li>
+                            <li><a> "Contactos" </a></li>
                         </ul>
 
                     </nav>
 
-                    <div>
-                        <a></a>
-                        <a></a>
+                    <div className={styles.headerSocial}>
+                        <a href="https://www.facebook.com/duitpropiedades" target="_blank"><FontAwesomeIcon icon={faFacebook}  /> </a>
+                        <a href="https://www.instagram.com/duitpropiedades/" target="_blank"><FontAwesomeIcon icon={faInstagram} className={styles.iconos} /></a>
                     </div>
 
                 </div>

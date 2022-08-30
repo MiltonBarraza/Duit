@@ -9,6 +9,11 @@
     height: 70px;
 }
 
+.mainHeader {
+    opacity: 0.80;
+    
+}
+
 .desktopHeaderContainer {
     display: flex;
     flex-direction: row;
@@ -16,6 +21,84 @@
     align-items: center;
     background-color: $rojo-1;
     height: 70px;
+
+    .desktopHeaderContainer>* {
+        flex: 0 0 fit-content;
+        padding: 0 15px;
+
+
+    }
+
+    .navigation {
+        float: left;
+        position: relative;
+        display: block;
+        flex: 0 0 fit-content;
+        font-size: 15px;
+        line-height: 27px;
+
+        ul {
+            list-style: none;
+            position: relative;
+            float: left;
+            margin: 0;
+            padding: 0;
+
+            li {
+                position: relative;
+                float: left;
+                margin: 0;
+                padding: 0;
+                color: #e0e0e0;
+            }
+        }
+    }
+
+
+    .headerSocial a {
+
+        font-size: 20px;
+        padding: 0 5px;
+
+        svg {
+            color: rgb(36, 15, 143); //prueba el mas fuerte
+        }
+
+    }
+
+}
+
+.fa-facebook:before {
+    //prueba
+    background: red;
+    color: blue;
+}
+
+
+svg.svg-inline--fa.fa-instagram.header2_iconos__DI2U8 {
+    //prueba
+    color: #e0e0e0;
+}
+
+svg.svg-inline--fa .fa-facebook {
+    color: #e0e0e0;
+}
+
+svg:not(:root).svg-inline--fa,
+svg:not(:host).svg-inline--fa {
+    //prueba
+    overflow: visible;
+    box-sizing: content-box;
+    color: #e0e0e0;
+}
+
+.iconos {
+
+    //prueba
+    svg {
+        color: rgb(255, 255, 255);
+    }
+
 }
 
 #header .desktopHeaderContainer>* {
@@ -28,12 +111,15 @@
     transform: none;
 }
 
-.logoImagen{ // mio
+.logoImagen {
+    // mio
     max-height: 80px;
     transform: none;
+
 }
 
-.logo { // mio
+.logo {
+    // mio
     float: left;
     max-height: 80px;
 }
@@ -111,6 +197,11 @@ header.fullwidth .container {
 #navigation {
     float: left;
 }
+
+
+
+
+
 
 .header-widget {
     text-align: right;
