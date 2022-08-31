@@ -1,5 +1,5 @@
 import styles from "../Contacto/contacto.module.scss";
-import TarjetaContacto from "../TarjetaContacto";
+
 
 
 export default function Contacto() {
@@ -33,7 +33,7 @@ export default function Contacto() {
                         <label className={styles.inputPlaceholder} for="message"> Mensaje*</label>
                     </div>
 
-                    <button> Contactar</button>
+                    <button>Contactar</button>
 
                     <div></div>
                     <div></div>
@@ -41,8 +41,7 @@ export default function Contacto() {
                 </form>
             </section>
 
-            <TarjetaContacto />
-
+            
         </section>
     )
 }
