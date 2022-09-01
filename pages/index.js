@@ -1,5 +1,3 @@
-import Contacto from "../components/Contacto";
-
 export default function Main() {
   return (
     <>
@@ -8,7 +6,6 @@ export default function Main() {
       <h1 id="servicios">Servicios</h1>
       <h1 id="consejeros">Consejeros</h1>
       <h1 id="contacto">Contacto</h1>
-      <Contacto/>
     </>
   )
 }
