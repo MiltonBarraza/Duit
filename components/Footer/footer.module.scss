@@ -27,7 +27,7 @@
         }
     }
 
-    .footerCopy {
+    .footerTexto {
         border-radius: 10px;
         max-width: 1000px;
         padding-bottom: 20px;
@@ -36,7 +36,7 @@
         justify-content: center;
     }
 
-    .footerCopy p {
+    .footerTexto p {
         font-size: 14px;
         line-height: 20px;
         margin: 0;
@@ -44,7 +44,7 @@
         text-align: justify;
     }
 
-    .footerText {
+    .footerTextoDatos {
         border-radius: 10px;
         display: flex;
         align-items: center;
@@ -52,31 +52,30 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
-}
 
-.footerText>* {
-    width: fit-content;
-    line-height: normal;
-    color: #f3eed5;
-    font-size: 12px;
-    margin: 5px;
+    .footerTextoDatos>* {
+        width: fit-content;
+        line-height: normal;
+        color: #f3eed5;
+        font-size: 12px;
+        margin: 5px;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #333;
+        outline: none !important;
+        transition: color .2s;
+        background-color: transparent;
+    }
 }
 
 .logoDuit {
-
-    span {
         max-height: 55px;
-    }
-    
 }
 
 .logoByHa {
     margin-top: 8px;
-    
-    span{
-        max-height: 25px;
-        width: auto;
-    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -86,16 +85,16 @@
         margin: 25px auto;
         border-radius: 5px;
 
-        .footerCopy {
+        .footerTexto {
             padding-bottom: 0;
         }
 
-        .footerCopy p {
+        .footerTexto p {
             font-size: 16px;
             line-height: 25px;
         }
 
-        .footerText>* {
+        .footerTextoDatos>* {
             font-size: 14px;
         }
     }
