@@ -1,4 +1,4 @@
-import ApartadoConsejeros from "../components/ApartadoConsejeros"
+import SeccionConsejeros from "../components/SeccionConsejeros"
 
 export default function Main() {
   return (
@@ -8,7 +8,7 @@ export default function Main() {
       <h1 id="servicios">Servicios</h1>
       <h1 id="consejeros">Consejeros</h1>
       <h1 id="contacto">Contacto</h1>
-      <ApartadoConsejeros/>
+      <SeccionConsejeros/>
     </>
   )
 }
