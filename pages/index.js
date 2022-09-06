@@ -1,4 +1,4 @@
-import Servicios from "../components/Servicios"
+import Servicios from "../components/Servicios/index";
 
 export default function Main() {
   return (
