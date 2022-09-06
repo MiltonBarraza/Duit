@@ -1,4 +1,3 @@
 1) Ver el tema del color de los iconos, si lo terminas sobre escribiendo al global o no la clase que robas del inspeccionar
 2) El origen del tooltip sigue siendo un misterio, por que la solucion que esta en el global.scss es medio pelo, se tilda si bajas despacio.
 3) El tamaño de los iconos sin poner !important en el MODULE
-
