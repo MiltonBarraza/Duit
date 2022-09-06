@@ -10,7 +10,6 @@
         width: 100%;
         filter: brightness(0.8);
         position: absolute;
-        z-index: -1;
     }
 
     .copia {
@@ -50,11 +49,10 @@
     }
 
     .comprar {
-
         position: absolute;
         left: 50%;
         height: 40%;
-        bottom: 0px;
+        bottom: -10px;
         transform: translate(-50%, 50%);
     }
 }
@@ -63,6 +61,7 @@
     .presentacion .comprar {
         height: 187px;
         width: 182px;
+        bottom: 0px;
     }
 }
 
