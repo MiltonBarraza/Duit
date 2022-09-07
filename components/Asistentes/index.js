@@ -9,6 +9,7 @@ export default function Asistentes() {
             <div className={styles.tituloContainer}>
 
                 <h3>Elegí a tu</h3>
+
                 <div className={styles.containerImg}>
                     
                     <Image
@@ -17,13 +18,14 @@ export default function Asistentes() {
                         layout="fill"
                         objectFit="cover"
                     />
+
                 </div>
 
             </div>
 
             <div className={styles.listadoAsistentes} >
 
-                <AsistentesImagenes />
+                <AsistentesImagenes/>
                 
             </div>
         </section>

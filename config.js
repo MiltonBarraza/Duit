@@ -71,7 +71,8 @@ export const Consejeros = [
     {
         nombre: 'Agustín Aznarez',
         posicion: 'Consejero',
-        telefono: '(351) 3102556',
+        telefono: '351 3102556',
+        telefonoFormateado: '5493513102556',
         email: 'agustin@duitpropiedades.com.ar',
         facebook: 'https://www.facebook.com/agustin.aznarez',
         twitter: '',
@@ -82,7 +83,8 @@ export const Consejeros = [
     {
         nombre: 'Daniel Ganim',
         posicion: 'Consejero',
-        telefono: '(351) 5647780',
+        telefono: '351 5647780',
+        telefonoFormateado: '5493515647780',
         email: 'danielganim@duitpropiedades.com.ar',
         facebook: '',
         twitter: '',
@@ -93,7 +95,8 @@ export const Consejeros = [
     {
         nombre: 'Fernando Gavier',
         posicion: 'Consejero',
-        telefono: '(0351) 5145491',
+        telefono: '351 5145491',
+        telefonoFormateado: '5493515145491',
         email: 'fgavier@duitpropiedades.com.ar',
         facebook: 'https://www.facebook.com/fngavier',
         twitter: 'https://twitter.com/fngavier',
@@ -102,20 +105,10 @@ export const Consejeros = [
         foto: 'fernando-gavier-profile.jpg',
     },
     {
-        nombre: 'Hugo Miranda',
-        posicion: 'Consejero',
-        telefono: '(351) 2462630',
-        email: 'hmiranda@duitpropiedades.com.ar',
-        facebook: ' ',
-        twitter: '',
-        linkedin: '',
-        instagram: '',
-        foto: 'hugo-miranda-profile.jpg',
-    },
-    {
         nombre: 'Severo Sosa',
         posicion: 'Consejero',
-        telefono: '(351) 5648467',
+        telefono: '351 5648467',
+        telefonoFormateado: '5493515648467',
         email: 'severo@duitpropiedades.com.ar',
         facebook: 'https://www.facebook.com/sapo.sosa',
         twitter: 'https://twitter.com/severososa',
@@ -126,7 +119,8 @@ export const Consejeros = [
     {
         nombre: 'Carolina Valarolo',
         posicion: 'Consejera',
-        telefono: '(351) 5513711',
+        telefono: '351 5513711',
+        telefonoFormateado: '5493515513711',
         email: 'carolina@duitpropiedades.com.ar',
         facebook: '',
         twitter: '',
@@ -137,7 +131,7 @@ export const Consejeros = [
     {
         nombre: 'Teresita Sciortino',
         posicion: 'Secretaria Administración',
-        telefono: '(351) 6840250',
+        telefono: '351 6840250',
         email: 'teresita@duitpropiedades.com.ar',
         facebook: '',
         twitter: '',
@@ -148,7 +142,8 @@ export const Consejeros = [
     {
         nombre: 'Santiago Paulus',
         posicion: 'Asesor',
-        telefono: '(351) 5908204',
+        telefono: '351 5908204',
+        telefonoFormateado: '5493515908204',
         email: 'santiago@duitpropiedades.com.ar',
         facebook: '',
         twitter: '',
@@ -161,7 +156,7 @@ export const Consejeros = [
 export const Contactos = {
     whatsappDuit: {
         numero: 5493512463530,
-        formateado: '+54 9 351 2463530'
+        formateado: '5493512463530'
     },
     whatsappInfo: 5493512463606,
     emailInfo: 'info@duitpropiedades.com.ar',
