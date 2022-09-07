@@ -1,5 +1,5 @@
 import styles from "../Servicios/servicios.module.scss";
-import ServiciosTooltip from "../ServiciosTooltip/index.js";
+import ServiciosTooltip from "./Servicio";
 
 export default function Servicios() {
     return (

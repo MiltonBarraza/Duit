@@ -306,3 +306,35 @@ export const TokkoConfig = {
         Emprendimiento: 'development'
     }
 };
+
+export const ServicioComponentes = [
+    {
+        imagen: 'asistente-personal-blanco.png',
+        tieneLink: true,
+        IrA: { pagina: "", fragmento: "/asistente" },
+    },
+    {
+        imagen: 'consejeros.png',
+        IrA: { pagina: Paginas.Home, fragmento: '#consejeros' },
+    },
+    {
+        imagen: 'alquiler.png',
+        IrA: { pagina: Paginas.Home, fragmento: '#buscador' },
+    },
+    {
+        imagen: 'venta.png',
+        IrA: { pagina: Paginas.Home, fragmento: '#buscador' },
+    },
+    {
+        imagen: 'administracion.png',
+        textoTooltip: 'Realizamos el cobro de alquileres e impuestos, y mantenimiento de tu propiedad. Damos una respuesta a los locatarios y evitamos a los propietarios las complicaciones derivadas con la administración y gestión de propiedades.',
+        whatsAppHref: `https://api.whatsapp.com/send?phone=${Contactos.whatsappInfo}&text=${encodeURIComponent('Hola, quiero hacer una consulta por una administración.')}`,
+        emailHref: `mailto:${Contactos.emailInfo}?Subject=${encodeURIComponent('Hola, quiero hacer una consulta por una administración.')}`
+    },
+    {
+        imagen: 'tasacion.png',
+        textoTooltip: 'Nuestro asesores matriculados CPCPI valuarán tu inmueble, para que sepas cuanto vale realemente tu propiedad.',
+        whatsAppHref: `https://api.whatsapp.com/send?phone=${Contactos.whatsappInfo}&text=${encodeURIComponent('Hola, quiero hacer una consulta por una administración.')}`,
+        emailHref: `mailto:${Contactos.emailInfo}?Subject=${encodeURIComponent('Hola, quiero hacer una consulta por una administración.')}`
+    }
+];

@@ -18,7 +18,7 @@ a {
   line-height: 27px;
 }
 
-#nextui-tooltip > div {
+#nextui-tooltip>div {
   padding: 0;
   border-radius: 5px;
 }
@@ -42,24 +42,24 @@ a {
   }
 }
 
-#servicioWsp>svg, #servicioMail>svg  {
+.verdeWhatsapp, .servicioMail {
   font-size: 30px;
   cursor: pointer;
   font-weight: 400;
   max-width: 200px;
 }
-#servicioWsp>svg {
+
+.verdeWhatsapp {
   color: $verde-whatsapp;
 }
 
-#servicioMail>svg  {
-color: $rojo-2;
+.servicioMail {
+  color: $rojo-2;
 }
 
-#icon {
+.iconoTarjetaConsejeros {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-around;
 }
-
