@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../Asistentes/asistentes.module.scss"
+import styles from "./Asistentes/asistentes.module.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
@@ -42,7 +42,7 @@ const Asistentes = [
     },
     {
         nombre: 'Santiago Paulus',
-        telefono: '351 5908204', 
+        telefono: '351 5908204',
         telefonoFormateado: '+54 9 351 5908204',
         email: 'santiago@duitpropiedades.com.ar',
         foto: 'santiago-pablu-profile.jpg',
