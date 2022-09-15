@@ -24,7 +24,7 @@ export function ServicioIntegralImagenes() {
                     <div>
 
                         <Image key={index}
-                            src={`/images/${servicioIntegral.src}`}
+                            src={`/images/servicioIntegral/${servicioIntegral.src}`}
                             alt={"algo"}
                             layout="fill"
                             objectFit="content"
